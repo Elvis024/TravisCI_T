@@ -10,4 +10,6 @@ branches:
   
 # blocklist
 branches:
+  except:
+  - opt
   
