@@ -7,9 +7,11 @@ script: python3 test_fruits.py
 branches:
   olny:
   - master
+  - /[upt][a-q]*[t]\b//
   
 # blocklist
 branches:
   except:
   - opt
+# comments
   
